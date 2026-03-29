@@ -29,7 +29,7 @@ export default function MeritSection() {
 
         <FadeIn className="mid-cta">
           <div className="cta-group">
-            <TrackedLink href="/contact/" className="btn btn-primary" eventParams={{ form_type: 'contact', cta_location: 'merit' }}>お問い合わせ</TrackedLink>
+            <TrackedLink href="/contact/" className="btn btn-primary" eventParams={{ form_type: 'contact', cta_location: 'merit' }}>まずは問い合わせする</TrackedLink>
           </div>
         </FadeIn>
       </div>

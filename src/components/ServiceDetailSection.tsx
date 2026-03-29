@@ -6,7 +6,7 @@ const services = [
   { num: '02', title: '決議書類の作成', desc: '取締役会議事録・決定書のドラフトを自動生成。押印するだけ。', delay: 1 },
   { num: '03', title: 'カレンダー連携', desc: 'Google Calendarから出張予定を自動取得。初回の許可クリックのみ。', delay: 2 },
   { num: '04', title: '出張判定・日当計算', desc: '毎月の出張を自動検知し、日当額を自動計算。判定はすべてPLEX側。', delay: 0 },
-  { num: '05', title: '帳票生成', desc: '仕訳CSV・振込CSV・出張ログを毎月自動生成。会計ソフトにそのままインポート。', delay: 1 },
+  { num: '05', title: '帳票生成', desc: '仕訳CSV・振込CSVを毎月自動生成。会計ソフトにそのままインポート。', delay: 1 },
   { num: '06', title: '税務調査対応', desc: '出張ログの証拠保管を自動化。税務調査に必要な書類をいつでも出力可能。', delay: 2 },
 ];
 
@@ -34,7 +34,7 @@ export default function ServiceDetailSection() {
 
         <FadeIn className="mid-cta">
           <div className="cta-group">
-            <TrackedLink href="/contact/" className="btn btn-primary" eventParams={{ form_type: 'contact', cta_location: 'service_detail' }}>お問い合わせ</TrackedLink>
+            <TrackedLink href="/contact/" className="btn btn-primary" eventParams={{ form_type: 'contact', cta_location: 'service_detail' }}>まずは問い合わせする</TrackedLink>
           </div>
         </FadeIn>
       </div>

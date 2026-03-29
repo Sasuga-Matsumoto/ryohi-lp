@@ -13,7 +13,7 @@ export default function HeroSection() {
           <span>否認保証付き</span>
         </div>
         <div className="cta-group">
-          <TrackedLink href="/contact/" className="btn btn-primary" eventParams={{ form_type: 'contact', cta_location: 'hero' }}>お問い合わせ</TrackedLink>
+          <TrackedLink href="/contact/" className="btn btn-primary" eventParams={{ form_type: 'contact', cta_location: 'hero' }}>まずは問い合わせする</TrackedLink>
         </div>
         <div className="hero-note">※ 月額報酬100万円・月10回出張の場合の試算です</div>
       </div>

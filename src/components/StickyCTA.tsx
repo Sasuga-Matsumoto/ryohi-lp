@@ -27,7 +27,7 @@ export default function StickyCTA() {
         className="btn btn-primary sticky-cta__btn"
         eventParams={{ form_type: 'contact', cta_location: 'sticky' }}
       >
-        お問い合わせ
+        まずは問い合わせする
       </TrackedLink>
     </div>
   );

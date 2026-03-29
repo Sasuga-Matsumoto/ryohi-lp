@@ -130,7 +130,7 @@ export default function SimulatorSection() {
               </select>
             </div>
             <div className="input-group">
-              <label htmlFor="sim-trips">月の出張回数</label>
+              <label htmlFor="sim-trips">月の出張回数<span style={{ fontWeight: 400, fontSize: '0.75rem', color: '#94A3B8', marginLeft: '6px' }}>※社外での打ち合わせを含む</span></label>
               <select id="sim-trips" value={trips} onChange={e => setTrips(e.target.value)}>
                 <option value="5">5回</option>
                 <option value="8">8回</option>
@@ -195,7 +195,7 @@ export default function SimulatorSection() {
 
         <FadeIn className="mid-cta">
           <div className="cta-group">
-            <TrackedLink href="/contact/" className="btn btn-primary" eventParams={{ form_type: 'contact', cta_location: 'simulator' }}>お問い合わせ</TrackedLink>
+            <TrackedLink href="/contact/" className="btn btn-primary" eventParams={{ form_type: 'contact', cta_location: 'simulator' }}>まずは問い合わせする</TrackedLink>
           </div>
         </FadeIn>
       </div>
