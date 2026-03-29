@@ -16,12 +16,17 @@ function getEarnedIncome(annualIncome: number) {
 
 function getMarginalTaxRate(annualIncome: number): number {
   const earned = getEarnedIncome(annualIncome);
-  if (earned <= 1949000) return 0.05;
-  if (earned <= 3299000) return 0.10;
-  if (earned <= 6949000) return 0.20;
-  if (earned <= 8999000) return 0.23;
-  if (earned <= 17999000) return 0.33;
-  if (earned <= 39999000) return 0.40;
+  // Approximate taxable income: deduct basic deduction + social insurance (health ~5% + pension ~9.15% capped at ¥650k/mo)
+  const basicDeduction = 480000;
+  const healthIns = annualIncome * 0.05;
+  const pension = Math.min(annualIncome / 12, 650000) * 0.0915 * 12;
+  const taxableIncome = Math.max(0, earned - basicDeduction - healthIns - pension);
+  if (taxableIncome <= 1950000) return 0.05;
+  if (taxableIncome <= 3300000) return 0.10;
+  if (taxableIncome <= 6950000) return 0.20;
+  if (taxableIncome <= 9000000) return 0.23;
+  if (taxableIncome <= 18000000) return 0.33;
+  if (taxableIncome <= 40000000) return 0.40;
   return 0.45;
 }
 
@@ -143,7 +148,7 @@ export default function SimulatorSection() {
             <button className="calc-btn" onClick={calculate}>シミュレーションする</button>
             <div className="sim-notes">
               ※ 日当は1回20,000円（代表取締役・国内出張）で計算<br />
-              ※ 所得税は限界税率で試算（概算値）<br />
+              ※ 所得税は課税所得ベースの限界税率で試算（基礎控除・社保控除を考慮した概算値）<br />
               ※ 住民税10%、健保 労使各5%で試算
             </div>
           </div>

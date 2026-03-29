@@ -14,7 +14,7 @@ export default function MeritSection() {
           <FadeIn delay={1}>
             <div className="merit-block-label">社長のメリット</div>
             <div className="merit-card card-employee">
-              <h3>報酬の一部を出張日当に組み替えるだけ。<br />手取りが年間115万円アップ。</h3>
+              <h3>報酬の一部を出張日当に組み替えるだけ。<br />手取りが年間100万円アップ。</h3>
               <p>社長の月額報酬の一部を出張日当に組み替えます。受取総額は変わりませんが、日当部分は所得税・住民税・社会保険料がかかりません。その分だけ、手取りが増えます。</p>
             </div>
           </FadeIn>
