@@ -39,8 +39,8 @@ export default function ThanksContactPage() {
                 <div className="thanks-feature-label">承認のみ</div>
               </div>
               <div className="thanks-feature-item">
-                <div className="thanks-feature-number"><span style={{ fontSize: '0.9rem' }}>最短</span>1<span style={{ fontSize: '0.9rem' }}>週間</span></div>
-                <div className="thanks-feature-label">導入完了</div>
+                <div className="thanks-feature-number">100<span style={{ fontSize: '0.9rem' }}>%</span></div>
+                <div className="thanks-feature-label">否認リスク保証</div>
               </div>
             </div>
 
