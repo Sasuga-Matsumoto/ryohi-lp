@@ -1,4 +1,4 @@
-const GAS_URL = 'https://script.google.com/macros/s/PLACEHOLDER/exec';
+const GAS_URL = 'https://script.google.com/macros/s/AKfycby-1MQsihj5nae5BXD5FX7BAN1jZtRS3KEAsD8KIFHEEz2oNW7egOrU5dZNzx7e1VBm1A/exec';
 
 const UTM_KEYS = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term'] as const;
 const UTM_STORAGE_KEY = 'utm_params';
