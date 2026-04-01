@@ -281,7 +281,7 @@ export default function SimulatorSection() {
                 </div>
                 <div className="result-divider"></div>
                 <div className="result-item">
-                  <div className="r-label">会社の削減額（年間）</div>
+                  <div className="r-label">会社のコスト削減額（年間）</div>
                   <div className="r-value"><span>{results.companySaving}</span><span className="r-unit">円/年</span></div>
                 </div>
               </div>
