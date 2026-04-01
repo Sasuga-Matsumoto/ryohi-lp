@@ -109,7 +109,7 @@ export default function ContactForm() {
       position: (form.elements.namedItem('position') as HTMLInputElement).value.trim() || '',
       inquiry: (form.elements.namedItem('inquiry') as HTMLTextAreaElement).value.trim(),
       referralSource: (form.elements.namedItem('referralSource') as HTMLSelectElement).value || '',
-      formType: 'お問い合わせ（旅費規程）',
+      formType: 'お問い合わせ',
       ...utm,
     };
 

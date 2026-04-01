@@ -105,7 +105,7 @@ export default function DownloadForm() {
       position: (form.elements.namedItem('position') as HTMLInputElement).value.trim() || '',
       inquiry: (form.elements.namedItem('message') as HTMLTextAreaElement).value.trim() || '',
       referralSource: (form.elements.namedItem('referralSource') as HTMLSelectElement).value || '',
-      formType: '資料請求（旅費規程）',
+      formType: '資料請求',
       ...utm,
     };
 
