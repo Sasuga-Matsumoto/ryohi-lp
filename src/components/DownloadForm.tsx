@@ -3,6 +3,7 @@
 import { useState, useRef, useEffect, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
 import { getUtmParams, submitToGAS } from '@/src/lib/gas';
+import { getActiveVariant } from '@/src/lib/ab-tests';
 import { scrollToFirstError } from '@/src/lib/form-utils';
 
 interface FormErrors {
@@ -112,7 +113,7 @@ export default function DownloadForm() {
     try {
       await submitToGAS(data);
       window.dataLayer = window.dataLayer || [];
-      window.dataLayer.push({ event: 'form_submit', form_type: 'download' });
+      window.dataLayer.push({ event: 'form_submit', form_type: 'download', ab_test_variant: getActiveVariant() });
       router.push('/thanks-download/');
     } catch {
       setSubmitting(false);

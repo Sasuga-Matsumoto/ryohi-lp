@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import Header from '@/src/components/Header';
 import ScheduleButton from '@/src/components/ScheduleButton';
+import ThanksPageView from '@/src/components/ThanksPageView';
 
 export const metadata: Metadata = {
   title: '資料をお送りしました | PLEX 出張旅費規程',
@@ -10,6 +11,7 @@ export const metadata: Metadata = {
 export default function ThanksDownloadPage() {
   return (
     <>
+      <ThanksPageView formType="download" />
       <Header variant="thanks-download" />
       <section className="thanks-section">
         <div className="thanks-inner fade-up">
