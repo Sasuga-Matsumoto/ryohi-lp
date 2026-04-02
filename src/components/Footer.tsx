@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="footer-logo">
               <img src="/logo.png" alt="PLEX" className="footer-logo-img" />
-              <span className="footer-logo-text">PLEX 出張旅費規程</span>
+              <span className="footer-logo-text">PLEX 出張旅費制度</span>
             </div>
             <div className="footer-company">株式会社プレックス</div>
             <div className="footer-address">〒103-0021 東京都中央区日本橋本石町3-2-4 共同ビル（日銀前）6階</div>

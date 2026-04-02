@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import Header from '@/src/components/Header';
 
 export const metadata: Metadata = {
-  title: '個人情報保護方針 | PLEX 出張旅費規程',
+  title: '個人情報保護方針 | PLEX 出張旅費制度',
   description: '株式会社プレックスの個人情報保護方針についてご案内いたします。',
 };
 

@@ -198,7 +198,7 @@ export default function ContactForm() {
                 </div>
 
                 <div className="input-group">
-                  <label htmlFor="referralSource">PLEX出張旅費規程をどこで知りましたか？<span className="required">必須</span></label>
+                  <label htmlFor="referralSource">PLEX出張旅費制度をどこで知りましたか？<span className="required">必須</span></label>
                   <select id="referralSource" name="referralSource" className={errors.referralSource ? 'input-error' : ''} required>
                     <option value="">選択してください</option>
                     <option value="Facebook/Instagram">Facebook/Instagram</option>

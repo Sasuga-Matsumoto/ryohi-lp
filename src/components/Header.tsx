@@ -75,7 +75,7 @@ export default function Header({ variant = 'top' }: { variant?: Variant }) {
     <header className="header" ref={headerRef}>
       <Link href="/" className="header-left">
         <img src="/logo.png" alt="PLEX" className="header-logo-img" />
-        <div className="header-logo">PLEX <span>出張旅費規程</span></div>
+        <div className="header-logo">PLEX <span>出張旅費制度</span></div>
       </Link>
       <nav>
         {renderNav()}

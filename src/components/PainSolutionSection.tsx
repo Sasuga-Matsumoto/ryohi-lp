@@ -18,7 +18,7 @@ export default function PainSolutionSection() {
             </div>
             <div className="pain-card">
               <div className="pain-icon">!</div>
-              <p>旅費規程を整備したいが<br />手間がかかりすぎて手が回らない</p>
+              <p>旅費制度を整備したいが<br />手間がかかりすぎて手が回らない</p>
             </div>
             <div className="pain-card">
               <div className="pain-icon">!</div>
@@ -34,7 +34,7 @@ export default function PainSolutionSection() {
         </FadeIn>
 
         <FadeIn className="section-center">
-          <h3 className="section-title" style={{ fontSize: '1.3rem' }}>出張旅費規程のお悩みをPLEXが解決します</h3>
+          <h3 className="section-title" style={{ fontSize: '1.3rem' }}>出張旅費制度のお悩みをPLEXが解決します</h3>
         </FadeIn>
 
         <FadeIn>
@@ -47,7 +47,7 @@ export default function PainSolutionSection() {
             <div className="solution-card">
               <div className="solution-num">02</div>
               <h4>規程整備から月次運用まで<br />全て丸投げ</h4>
-              <p>旅費規程の作成、決議書類のドラフト、カレンダー連携、月次の帳票生成まですべてお任せ。社長の作業は月1回承認のみ。</p>
+              <p>旅費制度の作成、決議書類のドラフト、カレンダー連携、月次の帳票生成まですべてお任せ。社長の作業は月1回承認のみ。</p>
             </div>
             <div className="solution-card">
               <div className="solution-num">03</div>

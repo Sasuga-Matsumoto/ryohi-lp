@@ -4,7 +4,7 @@ import ScheduleButton from '@/src/components/ScheduleButton';
 import ThanksPageView from '@/src/components/ThanksPageView';
 
 export const metadata: Metadata = {
-  title: 'お問い合わせありがとうございます | PLEX 出張旅費規程',
+  title: 'お問い合わせありがとうございます | PLEX 出張旅費制度',
   robots: 'noindex, nofollow',
 };
 
@@ -22,7 +22,7 @@ export default function ThanksContactPage() {
 
             <h1 className="thanks-title">お問い合わせありがとうございます</h1>
 
-            <p className="thanks-message">PLEX出張旅費規程は、出張日当の仕組みを活用して<br />社長の手取りアップと企業のコスト削減を同時に実現するサービスです。</p>
+            <p className="thanks-message">PLEX出張旅費制度は、出張日当の仕組みを活用して<br />社長の手取りアップと企業のコスト削減を同時に実現するサービスです。</p>
 
             <div className="thanks-schedule">
               <p className="thanks-schedule-text">お問い合わせ内容を踏まえて、30分程度でご説明します</p>

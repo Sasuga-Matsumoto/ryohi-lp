@@ -135,12 +135,12 @@ export default function DownloadForm() {
           <FadeIn>
             <div className="doc-info-card">
               <div className="doc-label">SERVICE DOCUMENT</div>
-              <h2>3分でわかる！<br />PLEX 出張旅費規程<br />サービス資料</h2>
-              <p className="doc-desc">出張旅費規程の仕組みから手取りアップの概算例、導入イメージまでを分かりやすくまとめた資料です。</p>
+              <h2>3分でわかる！<br />PLEX 出張旅費制度<br />サービス資料</h2>
+              <p className="doc-desc">出張旅費制度の仕組みから手取りアップの概算例、導入イメージまでを分かりやすくまとめた資料です。</p>
               <div className="doc-contents">
                 <h3>主な内容</h3>
                 <ul>
-                  <li>出張旅費規程の概要</li>
+                  <li>出張旅費制度の概要</li>
                   <li>手取りアップの仕組み</li>
                   <li>削減額の概算例</li>
                   <li>導入フロー</li>
@@ -211,7 +211,7 @@ export default function DownloadForm() {
                 </div>
 
                 <div className="input-group">
-                  <label htmlFor="referralSource">PLEX出張旅費規程をどこで知りましたか？<span className="required">必須</span></label>
+                  <label htmlFor="referralSource">PLEX出張旅費制度をどこで知りましたか？<span className="required">必須</span></label>
                   <select id="referralSource" name="referralSource" className={errors.referralSource ? 'input-error' : ''} required>
                     <option value="">選択してください</option>
                     <option value="Facebook/Instagram">Facebook/Instagram</option>

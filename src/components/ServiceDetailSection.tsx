@@ -2,7 +2,7 @@ import FadeIn from './FadeIn';
 import TrackedLink from '@/src/components/TrackedLink';
 
 const services = [
-  { num: '01', title: '旅費規程の整備', desc: '規程をパッケージでご提供。専門知識は不要。', delay: 0 },
+  { num: '01', title: '旅費制度の整備', desc: '規程をパッケージでご提供。専門知識は不要。', delay: 0 },
   { num: '02', title: '決議書類の作成', desc: '取締役会議事録・決定書のドラフトを自動生成。押印するだけ。', delay: 1 },
   { num: '03', title: 'カレンダー連携', desc: 'Google Calendarから出張予定を自動取得。初回の許可クリックのみ。', delay: 2 },
   { num: '04', title: '出張判定・日当計算', desc: '毎月の出張を自動検知し、日当額を自動計算。判定はすべてPLEX側。', delay: 0 },
