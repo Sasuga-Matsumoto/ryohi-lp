@@ -138,7 +138,7 @@ export default function ContactForm() {
         <div className="contact-inner">
           <FadeIn>
             <div className="form-card">
-              <div className="form-card-title">以下のフォームにご記入ください</div>
+              <div className="form-card-title">30秒で今すぐダウンロード！</div>
               <form ref={formRef} onSubmit={handleSubmit} noValidate>
                 <div className="input-group">
                   <label htmlFor="company">会社名<span className="required">必須</span></label>

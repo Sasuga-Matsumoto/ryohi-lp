@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, FormEvent } from 'react';
 import { useRouter } from 'next/navigation';
+import Image from 'next/image';
 import { getUtmParams, submitToGAS } from '@/src/lib/gas';
 import { getActiveVariant } from '@/src/lib/ab-tests';
 import { scrollToFirstError } from '@/src/lib/form-utils';
@@ -136,6 +137,10 @@ export default function DownloadForm() {
             <div className="doc-info-card">
               <div className="doc-label">SERVICE DOCUMENT</div>
               <h2>3分でわかる！<br />PLEX 出張旅費制度<br />サービス資料</h2>
+              <div className="doc-thumbs">
+                <Image src="/doc_thumb_merit.png" alt="導入時のメリット" width={460} height={259} loading="lazy" />
+                <Image src="/doc_thumb_example.png" alt="導入効果の事例" width={460} height={259} loading="lazy" />
+              </div>
               <p className="doc-desc">出張旅費制度の仕組みから手取りアップの概算例、導入イメージまでを分かりやすくまとめた資料です。</p>
               <div className="doc-contents">
                 <h3>主な内容</h3>
