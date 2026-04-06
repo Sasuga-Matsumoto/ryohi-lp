@@ -138,6 +138,7 @@ export default function DownloadForm() {
               <div className="doc-label">SERVICE DOCUMENT</div>
               <h2>3分でわかる！<br />PLEX 出張旅費制度<br />サービス資料</h2>
               <div className="doc-thumbs">
+                <Image src="/doc_thumb_service.png" alt="サービス概要" width={460} height={259} loading="lazy" />
                 <Image src="/doc_thumb_comparison.png" alt="従来とPLEX出張旅費制度の違い" width={460} height={259} loading="lazy" />
               </div>
               <p className="doc-desc">出張旅費制度の仕組みから手取りアップの概算例、導入イメージまでを分かりやすくまとめた資料です。</p>
