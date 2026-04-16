@@ -10,7 +10,7 @@ export default function HeroSection() {
         <div className="hero-sub-pitch">
           <span>初期費用 0円</span>
           <span>月1回承認のみ</span>
-          <span>否認保証付き</span>
+          <span>否認補償付き</span>
         </div>
         <div className="cta-group">
           <TrackedLink href="/download/" className="btn btn-primary" eventParams={{ form_type: 'download', cta_location: 'hero' }}>まずは無料で資料請求</TrackedLink>

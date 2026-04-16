@@ -51,8 +51,8 @@ export default function PainSolutionSection() {
             </div>
             <div className="solution-card">
               <div className="solution-num">03</div>
-              <h4>業界唯一の<br />否認リスク保証</h4>
-              <p>当社が設計・管理した範囲で税務否認が発生した場合の保証付き。安心して導入いただけます。</p>
+              <h4>業界唯一の<br />否認リスク補償</h4>
+              <p>当社が設計・管理した範囲で税務否認が発生した場合の補償付き。安心して導入いただけます。</p>
             </div>
           </div>
         </FadeIn>
