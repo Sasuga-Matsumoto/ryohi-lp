@@ -34,12 +34,15 @@ export default function ThanksContactPage() {
             <div className="thanks-features">
               <div className="thanks-feature-item">
                 <div className="thanks-feature-number">会社負担削減</div>
+                <div className="thanks-feature-desc">社保の会社負担と消費税を削減</div>
               </div>
               <div className="thanks-feature-item">
                 <div className="thanks-feature-number">複数リスクケア</div>
+                <div className="thanks-feature-desc">複数観点の対策サンプルをご提供</div>
               </div>
               <div className="thanks-feature-item">
                 <div className="thanks-feature-number">お手間なし</div>
+                <div className="thanks-feature-desc">導入から運用まで雛形を一式ご提供</div>
               </div>
             </div>
 
@@ -65,7 +68,7 @@ export default function ThanksContactPage() {
                 <div className="thanks-step-num">3</div>
                 <div className="thanks-step-content">
                   <div className="thanks-step-title">導入サポート</div>
-                  <div className="thanks-step-desc">最短4週間で運用開始</div>
+                  <div className="thanks-step-desc">最短1週間で運用開始</div>
                 </div>
               </div>
             </div>

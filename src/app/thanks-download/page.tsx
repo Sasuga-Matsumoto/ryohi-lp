@@ -34,12 +34,15 @@ export default function ThanksDownloadPage() {
             <div className="thanks-features">
               <div className="thanks-feature-item">
                 <div className="thanks-feature-number">会社負担削減</div>
+                <div className="thanks-feature-desc">社保の会社負担と消費税を削減</div>
               </div>
               <div className="thanks-feature-item">
                 <div className="thanks-feature-number">複数リスクケア</div>
+                <div className="thanks-feature-desc">複数観点の対策サンプルをご提供</div>
               </div>
               <div className="thanks-feature-item">
                 <div className="thanks-feature-number">お手間なし</div>
+                <div className="thanks-feature-desc">導入から運用まで雛形を一式ご提供</div>
               </div>
             </div>
 
