@@ -52,7 +52,7 @@ export default function PainSolutionSection() {
             <div className="solution-card">
               <div className="solution-num">03</div>
               <h4>複数リスクをケア</h4>
-              <p>制度の目的設定、日当の設定背景など各種対策サンプルを提供。</p>
+              <p>制度の目的設定、日当の設定背景、適用範囲の定義、運用時の留意点まで、複数観点の対策サンプルをパッケージで提供します。</p>
             </div>
           </div>
         </FadeIn>
