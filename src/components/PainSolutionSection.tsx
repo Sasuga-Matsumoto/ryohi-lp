@@ -46,13 +46,13 @@ export default function PainSolutionSection() {
             </div>
             <div className="solution-card">
               <div className="solution-num">02</div>
-              <h4>規程整備から月次運用まで<br />全て丸投げ</h4>
-              <p>旅費制度の作成、決議書類のドラフト、カレンダー連携、月次の帳票生成まですべてお任せ。社長の作業は月1回承認のみ。</p>
+              <h4>規程整備から月次運用まで<br />フルサポート</h4>
+              <p>制度設計、各種規程・届け出、運用フロー、証拠管理まで網羅的に雛形提供。</p>
             </div>
             <div className="solution-card">
               <div className="solution-num">03</div>
-              <h4>業界唯一の<br />否認リスク補償</h4>
-              <p>当社が設計・管理した範囲で税務否認が発生した場合の補償付き。安心して導入いただけます。</p>
+              <h4>複数リスクをケア</h4>
+              <p>制度の目的設定、日当の設定背景など各種対策サンプルを提供。</p>
             </div>
           </div>
         </FadeIn>

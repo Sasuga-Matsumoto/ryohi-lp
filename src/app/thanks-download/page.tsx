@@ -33,16 +33,13 @@ export default function ThanksDownloadPage() {
 
             <div className="thanks-features">
               <div className="thanks-feature-item">
-                <div className="thanks-feature-number">0<span style={{ fontSize: '0.9rem' }}>円</span></div>
-                <div className="thanks-feature-label">初期費用</div>
+                <div className="thanks-feature-number">手取りUP</div>
               </div>
               <div className="thanks-feature-item">
-                <div className="thanks-feature-number"><span style={{ fontSize: '0.9rem' }}>月</span>1<span style={{ fontSize: '0.9rem' }}>回</span></div>
-                <div className="thanks-feature-label">承認のみ</div>
+                <div className="thanks-feature-number">リスクケア</div>
               </div>
               <div className="thanks-feature-item">
-                <div className="thanks-feature-number">100<span style={{ fontSize: '0.9rem' }}>%</span></div>
-                <div className="thanks-feature-label">否認リスク補償</div>
+                <div className="thanks-feature-number">手間なし</div>
               </div>
             </div>
 

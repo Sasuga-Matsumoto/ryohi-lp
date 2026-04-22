@@ -8,9 +8,9 @@ export default function HeroSection() {
         <div className="hero-label">PLEX TRAVEL EXPENSE</div>
         <h1 className="hero-title">社長の手取りを100万円増やす<br />新しい税金対策</h1>
         <div className="hero-sub-pitch">
-          <span>初期費用 0円</span>
-          <span>月1回承認のみ</span>
-          <span>否認補償付き</span>
+          <span>手取りUP</span>
+          <span>リスクケア</span>
+          <span>手間なし</span>
         </div>
         <div className="cta-group">
           <TrackedLink href="/download/" className="btn btn-primary" eventParams={{ form_type: 'download', cta_location: 'hero' }}>まずは無料で資料請求</TrackedLink>

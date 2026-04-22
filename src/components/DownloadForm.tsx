@@ -149,7 +149,7 @@ export default function DownloadForm() {
                   <li>手取りアップの仕組み</li>
                   <li>削減額の概算例</li>
                   <li>導入フロー</li>
-                  <li>サービス内容・料金</li>
+                  <li>サービス内容</li>
                 </ul>
               </div>
             </div>

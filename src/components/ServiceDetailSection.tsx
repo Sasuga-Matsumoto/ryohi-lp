@@ -16,8 +16,8 @@ export default function ServiceDetailSection() {
       <div className="inner">
         <FadeIn className="section-center">
           <div className="section-label">SERVICE</div>
-          <h2 className="section-title">導入から運用まで、すべてお任せください</h2>
-          <p className="section-desc">規程整備からカレンダー連携、月次の帳票生成まで、面倒な作業はすべてPLEXが代行します。</p>
+          <h2 className="section-title">導入から運用まで、網羅的にサポート</h2>
+          <p className="section-desc">規程整備、カレンダー連携、月次の帳票生成まで、必要な雛形と仕組みをPLEXが提供します。</p>
         </FadeIn>
 
         <div className="service-grid">
