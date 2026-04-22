@@ -6,7 +6,7 @@ import UtmCapture from '@/src/components/UtmCapture';
 
 export const metadata: Metadata = {
   title: 'PLEX 出張旅費制度 | 社長の手取りを100万円増やす新しい税金対策',
-  description: 'PLEX出張旅費制度は、出張日当の仕組みを活用して社長の手取りアップと企業のコスト削減を同時に実現するBPOサービスです。',
+  description: 'PLEX出張旅費制度は、出張日当制度の導入から月次運用まで必要な雛形をご提供。社長の手取りアップと会社負担削減を同時に実現するサービスです。',
   other: {
     'theme-color': '#1E3A8A',
   },
