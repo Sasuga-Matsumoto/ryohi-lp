@@ -2,12 +2,12 @@ import FadeIn from './FadeIn';
 import TrackedLink from '@/src/components/TrackedLink';
 
 const services = [
-  { num: '01', title: '出張旅費規程', desc: '制度の目的設定・全体設計を含む、出張旅費規程のドラフトを一式ご提供。', delay: 0 },
-  { num: '02', title: '決議書類', desc: '取締役会議事録・決定書など、制度導入に必要な決議書類のドラフトをご提供。', delay: 1 },
-  { num: '03', title: '各種届出', desc: '意見書・各種届出書類のドラフトと、提出フロー・タイミングをご提供。', delay: 2 },
-  { num: '04', title: '日当額・出張定義', desc: '日当額・出張定義・支給対象の根拠について、複数パターンの設計例をご提供。', delay: 0 },
-  { num: '05', title: '月次運用フロー', desc: '月次精算・日当支払・仕訳処理まで、運用フローと帳票CSVの雛形をご提供。', delay: 1 },
-  { num: '06', title: '証拠保管', desc: '制度運用で保管が必要となる証拠書類の一覧と、保管フォーマットをご提供。', delay: 2 },
+  { num: '01', title: '出張旅費規程', desc: '制度の目的設定・全体設計を含む規程ドラフトをご提供。', delay: 0 },
+  { num: '02', title: '決議書類', desc: '取締役会議事録・決定書など決議書類のドラフトをご提供。', delay: 1 },
+  { num: '03', title: '各種届出', desc: '意見書・各種届出書類のドラフトと提出フローをご提供。', delay: 2 },
+  { num: '04', title: '日当額・出張定義', desc: '日当額・出張定義・支給対象の設計例を複数ご提供。', delay: 0 },
+  { num: '05', title: '月次運用フロー', desc: '月次精算・日当支払・仕訳処理の運用フロー雛形をご提供。', delay: 1 },
+  { num: '06', title: '証拠保管', desc: '保管が必要な証拠書類の一覧と保管フォーマットをご提供。', delay: 2 },
 ];
 
 export default function ServiceDetailSection() {
