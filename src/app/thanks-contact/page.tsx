@@ -33,13 +33,13 @@ export default function ThanksContactPage() {
 
             <div className="thanks-features">
               <div className="thanks-feature-item">
-                <div className="thanks-feature-number">手取りUP</div>
+                <div className="thanks-feature-number">会社負担削減</div>
               </div>
               <div className="thanks-feature-item">
-                <div className="thanks-feature-number">リスクケア</div>
+                <div className="thanks-feature-number">複数リスクケア</div>
               </div>
               <div className="thanks-feature-item">
-                <div className="thanks-feature-number">手間なし</div>
+                <div className="thanks-feature-number">お手間なし</div>
               </div>
             </div>
 
